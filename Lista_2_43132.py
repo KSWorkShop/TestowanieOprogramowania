@@ -11,6 +11,7 @@ class MyTestApp(QWidget):
     def __init__(self):
         super().__init__()
         self.init_ui()
+        self.my_cmd = MyCmd(self)
 
     def init_ui(self):
         self.setWindowTitle("MyTest_43132.exe")
